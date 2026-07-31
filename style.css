@@ -37,13 +37,10 @@ input {
 button {
   padding: 10px;
   border: none;
-  background: rgb(29, 63, 236);
+  background: rgb(10, 102, 194);
   color: rgb(245, 239, 239);
   border-radius: 5px;
   cursor: pointer;
 }
 
 
-button:hover {
-  background: #333;
-}

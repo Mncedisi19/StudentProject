@@ -4,24 +4,27 @@
      <link rel="stylesheet" href="style.css">
     <body>
         
-        <h2>Login</h2>
+        <h2>Welcome back</h2>
+        <h3>Log in to study smarter</h3>
 
 <form>   <!-- Collecting user details-->
   <label for="email">Email:</label>
-  <input type="email" id="email" placeholder="Enter student email" required>
+  <input type="email" id="email" placeholder="studentnumber@example.ac.za" required>
 
 
   <label for="password">Password:</label>
-  <input type="password" id="password" placeholder="Enter password" required>
+  <input type="password" id="password" placeholder="Enter your password" required>
 
-  <button type="submit">Sign in</button>
+  <div id="Forgot Password" style="color: rgb(10, 102, 194);">
+    <p><a href="#">Forgot Password?</a></p>
+  </div>
+  <button type="submit">Log in</button>
 </form>
-      
 
-     <p>or continue with</p>
+<p>---------or----------</p>
 
         <div>
-            <button onclick="signInWithGitHub()">GitHub</button>
+            <button onclick="continueWithGitHub()">Continue with <a href="#">GitHub</a></button>
         </div>
 
         <p>Don't have an account? <a href="https://mncedisi19.github.io/StudentProject/signup.html">Sign up</a></p>
