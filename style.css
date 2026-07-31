@@ -10,7 +10,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
 form {
   display: flex;
   flex-direction: column;  
@@ -20,19 +19,16 @@ form {
   border-radius: 10px;
 }
 
-
 input, label, button {
   margin-bottom: 10px;
   font-size: 14px;
 }
-
 
 input {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-
 
 button {
   padding: 10px;
