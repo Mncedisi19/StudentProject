@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
  <head>
+     <link rel="stylesheet" href="style.css">
     <body>
         
         <h2>Login</h2>
 
 <form>   <!-- Collecting user details-->
   <label for="email">Email:</label>
-  <input type="email" id=" Student email">
+  <input type="email" id="email" placeholder="Enter student email" required>
+
 
   <label for="password">Password:</label>
-  <input type="password" id="password">
+  <input type="password" id="password" placeholder="Enter password" required>
 
   <button type="submit">Sign in</button>
 </form>
         <p>or continue with</p>
 
         <div>
-            <button>GitHub</button>
+            <button onclick="signInWithGitHub()">GitHub</button>
         </div>
 
         <p>Don't have an account? <a href="https://github.com/Mncedisi19/SP_Sign-up-Page-.git">Sign up</a></p>
-        
+     <script src="app.js"></script>   
     </body>
  </head>
  </html>
