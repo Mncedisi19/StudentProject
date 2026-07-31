@@ -14,7 +14,7 @@
   <input type="text" id="Last Name" placeholder="Enter last name" required>
 
   <label for="email">Email:</label>
-  <input type="email" id="email" placeholder="Enter student email" required>
+  <input type="email" id="email" placeholder="studentnumber@example.ac.za" required>
 
   <label for="phone">Phone Number:</label>
   <input type="tel" id="phone" placeholder="Enter phone number" required>
@@ -23,12 +23,16 @@
   <label for="password">Password:</label>
   <input type="password" id="password" placeholder="Enter password" required>
 
+  <label for="confirm password"></label>
+  <input type="password" id="confirm password" placeholder="Confirm password" required>
+
   <button type="submit">Sign up</button>
 </form>
         <p>or continue with</p>
 
         <div>
             <button onclick="signInWithGitHub()"><a href="#">GitHub</a></button>
+            <button onclick="signInWithGoogle()"><a href="#">Google</a></button>
         </div>
 
         <p>Already have an account? <a href="https://mncedisi19.github.io/StudentProject/login.html">Sign in</a></p>
